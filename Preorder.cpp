@@ -3,7 +3,7 @@
 #include "TreeNode.h"
 using namespace std;
 
-TreeNode<int> *takeInputLevelWise()
+TreeNode<int> *takeInputLevelWiSe()
 {
     int rootData;
     cout << "Enter root data" << endl;
@@ -71,7 +71,7 @@ void preorder(TreeNode<int> *root)
 int main()
 {
 
-    TreeNode<int> *root = takeInputLevelWise();
+    TreeNode<int> *root = takeInputLevelWiSe();
     printTree(root);
     preorder(root);
 }
